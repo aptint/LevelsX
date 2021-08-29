@@ -1,0 +1,9 @@
+name: LevelsX
+main: LevelsX
+author: EvaK
+version: 1.0-SNAPSHOT
+description: LevelsX
+api-version: 1.15
+commands:
+  levels:
+    description: Opens the GUI

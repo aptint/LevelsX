@@ -1,0 +1,15 @@
+settings:
+  menu:
+    title: '&9&lLevels'
+    rows: 5
+levels:
+  '1':
+    name: 'Henlo'
+    cost: 3500
+    items: {}
+    commands: {}
+  '2':
+    name: 'TrenGem'
+    cost: 7000
+    items: {}
+    commands: {}

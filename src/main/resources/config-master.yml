@@ -1,0 +1,34 @@
+settings:
+  menu:
+    title: '&9&lLevels'
+    rows: 5
+  items:
+    locked:
+      item: BARRIER
+      name: "LEVEL %level% | LOCKED"
+      lore:
+        - 'Unlock level %level_previous% to unlock!'
+    not-purchased:
+      item: TNT_MINECART
+      name: "LEVEL %level% | PURCHASE"
+      lore:
+        - 'Purchase for $%level_cost%'
+    unclaimed:
+      item: CHEST_MINECART
+      name: "LEVEL %level% | UNCLAIMED"
+      lore:
+        - 'Expires on %time_expired%'
+    claimed:
+      item: MINECART
+      name: "LEVEL %level% | CLAIMED"
+      lore:
+        - 'Claimed on %time_claimed%'
+levels:
+  '1':
+    name: Hi
+    cost: 3500
+    commands: {}
+  '2':
+    name: TrenGem
+    cost: 7000
+    commands: {}
